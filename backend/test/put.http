@@ -1,0 +1,11 @@
+# Metodo PUT (Adicionar o ID na URL)
+PUT http://localhost:3000/users/:id
+Content-Type: application/json
+
+{
+    "fullName": "Luis Henrique",
+    "email": "luis@email.com",
+    "number": "94981691243",
+    "subject": "adocao",
+    "message": "Olá mundo"
+}

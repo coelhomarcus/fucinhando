@@ -1,0 +1,4 @@
+# Metodo DELETE (Adicionar o ID na URL)
+DELETE http://localhost:3000/users/:id
+Content-Type: application/json
+
